@@ -1,6 +1,17 @@
-A military personnel managament system project, I built during active duty in the security forces, aiming to:
-    1) Ease and automate the daily processes/tasks done throughout different departments 
-    2) Centralize data resources to reduce redundancy
-    3) Create a trusted shared knowledge base 
-    4) Speed up and increase the quality of the communication among all departments
-    5) Automate the upon-request reports 
+# 🛡️ Military Personnel Management System (MPMS) (V1)
+**An Enterprise-grade solution for automated administration and departmental synchronization.**
+
+## 📖 Project Overview
+Developed during active duty within the Security Forces, this system was engineered to modernize military administration by replacing legacy manual processes with a high-performance digital infrastructure. The MPMS ensures that mission-critical data moves faster than the paperwork it replaces by focusing on automation, data integrity, and cross-departmental transparency.
+
+## 🏗️ System Architecture
+The system is built on a **Centralized Data Model** designed to eliminate "Data Silos" and establish a Single Source of Truth (SSOT).
+
+```mermaid
+graph TD
+    A[Departmental Inputs] -->|Automated Validation| B(Centralized Data Engine)
+    B --> C{Decision Logic}
+    C -->|Real-time| D[Shared Knowledge Base]
+    C -->|On-Request| E[Automated Report Generator]
+    C -->|Push| F[Cross-Dept Communication]
+    D --> G[Command Visibility]
